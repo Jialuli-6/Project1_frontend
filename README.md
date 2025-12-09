@@ -72,8 +72,8 @@ npm start
 
 3.	Open a browser and access http://localhost:3000</br> 
 4.	Verify functionality:</br> 
-• Click the homepage button to enter the research dashboard
-• Click "View Network Graphs" to view network visualizations
+• Click the homepage button to enter the research dashboard</br>
+• Click "View Network Graphs" to view network visualizations</br>
 
 
 
