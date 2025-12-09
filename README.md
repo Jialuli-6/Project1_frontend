@@ -13,6 +13,23 @@ This repo includes part of the frontend documents.</br>
 • Web Browser (Chrome/Firefox latest versions recommended)</br>
 
 
+<h2>Data Requirements</h2>
+
+```python
+├─/root/Project Folder
+        ├─node_modules
+        ├─public
+        ├─src
+             ├─components
+                    ├─ .tsx files 
+             ├─data 
+             ├─backend (App.py)
+             ├─venv
+...
+```
+
+
+
 <h2>Frontend Application Deployment</h2>
 
 
