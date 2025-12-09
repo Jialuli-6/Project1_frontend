@@ -74,7 +74,7 @@ const CitationNetworksDashboard: React.FC = () => {
             overflow: 'hidden'
           }}>
             <h3 style={{ padding: '10px', margin: '0', backgroundColor: '#f5f5f5' }}>
-              Hierarchical Edge Bundling(Radial Layout)
+              Hierarchical Edge Bundling(Balloon Layout))
             </h3>
             <EnhancedCitationNetworkV1 
               apiUrl="/api/enhanced-citation-network" 
@@ -89,7 +89,7 @@ const CitationNetworksDashboard: React.FC = () => {
             overflow: 'hidden'
           }}>
             <h3 style={{ padding: '10px', margin: '0', backgroundColor: '#f5f5f5' }}>
-            Hierarchical Edge Bundling(Balloon Layout)
+            Hierarchical Edge Bundling(Radial Layout)
             </h3>
             <EnhancedCitationNetwork
               apiUrl="/api/enhanced-citation-network" 
@@ -116,8 +116,8 @@ const CitationNetworksDashboard: React.FC = () => {
           <h4>About the Visualizations</h4>
           <p>Three different approaches to visualizing the same citation network data:</p>
           <ul>
-            <li><strong>Hierarchical Edge Bundling(Radial Layout):</strong> Nodes are organized by publication year in concentric circles, with edges bundled to reduce clutter.</li>
-            <li><strong>Hierarchical Edge Bundling(Balloon Layout):</strong> Nodes are grouped by publication year in separate clusters, maintaining visual separation between different years.</li>
+            <li><strong>Hierarchical Edge Bundling(Balloon Layout):</strong> Nodes are organized by publication year in concentric circles, with edges bundled to reduce clutter.</li>
+            <li><strong>Hierarchical Edge Bundling(Radial Layout):</strong> Nodes are grouped by publication year in separate clusters, maintaining visual separation between different years.</li>
             <li><strong>Community Clustering:</strong> Nodes are grouped by their connection patterns(The connection relationship between nodes) using a force-directed layout that enhances cluster separation.</li>
           </ul>
         </div>
