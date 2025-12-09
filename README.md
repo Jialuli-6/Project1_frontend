@@ -57,6 +57,26 @@ npm start
 
 The frontend application will run at http://localhost:3000 (default port).
 
+<h2>Operation and Verification</h2>
+1.	Ensure the backend service is running (
+
+```python
+python app.py
+```
+
+2.	Start the frontend application
+
+```python
+npm start
+```
+
+3.	Open a browser and access http://localhost:3000</br> 
+4.	Verify functionality:</br> 
+• Click the homepage button to enter the research dashboard
+• Click "View Network Graphs" to view network visualizations
+
+
+
 
 
 
