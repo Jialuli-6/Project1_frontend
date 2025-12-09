@@ -13,10 +13,10 @@ This repo includes part of the frontend documents.</br>
 • Web Browser (Chrome/Firefox latest versions recommended)</br>
 
 
-<h2>Frontend Application Deployment<\h2>
+<h2>Frontend Application Deployment</h2>
 
 
-<h3>Obtain Frontend Code<\h3>
+<h3>Obtain Frontend Code</h3>
 Copy the directory containing React code (ResearchDashboard.tsx, App.tsx, etc.) to the target server:<\br> 
 ```python
 cd frontend  # Navigate to frontend code directory
@@ -32,19 +32,19 @@ rm -rf node_modules
 rm -f package-lock.json yarn.lock
 ```
 
-<h3>Install Dependencies<\h3>
+<h3>Install Dependencies</h3>
 ```python
 npm install
 ```
 
-<h3>Configure API Address (if needed)<\h3>
-If the backend service address is not http://localhost:5000, update the base API URL in the frontend code (e.g., in network-related components):<\br>
+<h3>Configure API Address (if needed)</h3>
+If the backend service address is not http://localhost:5000, update the base API URL in the frontend code (e.g., in network-related components):</br>
 ```python
 ### Example: Modify base API path
 const API_BASE_URL = "http://your-backend-ip:5000/api";
 ```
 
-<h3>Start Frontend Environment<\h3>
+<h3>Start Frontend Environment</h3>
 ```python
 npm start
 ```
