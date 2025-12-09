@@ -76,7 +76,7 @@ npm start
 The frontend application will run at http://localhost:3000 (default port).
 
 <h2>Operation and Verification</h2>
-1.	Ensure the backend service is running prior to the start of the frontend
+1.	Ensure the backend service is running prior to the start of the frontend (open two separate terminals)
 
 ```python
 python app.py
