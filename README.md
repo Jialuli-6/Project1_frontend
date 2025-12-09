@@ -87,10 +87,9 @@ python app.py
 npm start
 ```
 
-
-3.      For macOS, disable AirPlay to avoid port deprecation</br> 
-4.	Open a browser and access http://localhost:3000</br>
-5.	Verify functionality:</br> 
+3. For macOS, disable AirPlay to avoid port deprecation</br>
+4. Open a browser and access http://localhost:3000</br>
+5. Verify functionality:</br> 
 • Click the homepage button to enter the research dashboard</br>
 • Click "View Network Graphs" to view network visualizations</br>
 
